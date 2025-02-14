@@ -27,6 +27,4 @@ form.addEventListener('submit',function (e){
             weight_guide.innerHTML=`<span>normal weight</span>`;
          }
      }
-    
-
 });
