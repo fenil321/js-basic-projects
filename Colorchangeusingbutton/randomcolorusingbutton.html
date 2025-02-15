@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #212121;
+            color: #fff;
+            text-align: center;
+            justify-content: center;
+            display:flex;
+            margin-top: 10%;
+        }
+        .card:hover{
+            width:35%;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+        }
+        .button{
+            width: 10vh;
+            padding: 7px;
+            border-radius: 7px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <p>Click Start button to change background-color</p>
+        <button id="start" class="button">Start</button>
+        <button id="stop" class="button">Stop</button>
+        <p>Click Stop button to stop change background-color</p>
+    </div>
+</body>
+<script src="changecolor.js"></script>
+</html>
